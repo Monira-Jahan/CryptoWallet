@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/0e59cd5c59.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="bg-primary h-[300px]">
+            <div class="navbar start bg-primary ml-4 ">
+                <div class="flex-1">
+                    <a class="btn btn-ghost normal-case text-xl text-white">CryptoWallet</a>
+                </div>
+                <div class="flex-none">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-white"><a>Docs</a></li>
+                    </ul>
+                    <div class="navbar">
+                        <button class="btn btn-neutral text-sm mr-6 normal-case">Connect Wallet
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex">
+                <div class="flex">
+                    <i class="ml-10 p-3 border rounded-xl fa-solid fa-wallet" style="color: #f8f8fa;"></i>
+                    <div class="flex-col pl-4">
+                        <p class="text-sm font-bold text-gray-400">Balance</p>
+                        <p class="text-2xl font-bold text-white">$0.00</p>
+                    </div>
+                </div>
+                <div class="flex">
+
+                    <i class="ml-10 p-3 border rounded-xl fa-solid fa-building-columns" style="color: #f1f2f3;"></i>
+                    <div class="flex-col pl-4">
+                        <p class="text-sm font-bold text-gray-400">TVL</p>
+                        <p class="text-2xl font-bold text-white">$18,812.76</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<main class="bg-gray-800">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-4 shadow-xl max-w-6xl w-full mx-auto">
+            <!-- card-1 -->
+            <div class="bg-gradient-to-b from-[#191F30] to-[#101625] border-[#181E2F] border-solid border-2 rounded-2xl p-2 ">
+                <div class="p-4">
+                    <div class="flex">
+                        <div class="flex flex-grow flex-row items-center">
+                            <img alt="Token Logo" src="./images/dai-logo.webp" class="inline mr-3 h-12 w-12"
+                                loading="lazy" style="color:transparent">
+                            <p class="inline text-2xl font-bold text-white">DAI</p>
+                        </div>
+                        <div>
+                            <a class="inline-flex flex-row rounded-lg bg-gradient-to-r from-backgroundPrimary to-[#10141F] p-2 border-solid border-backgroundPrimary border-2 hover:border-accentSecondary items-center"
+                                href="https://app.hop.exchange/#/pools?token=ETH">
+                                <img alt="Protocol Logo" src="./images/hop-logo.svg" width="25" height="25"
+                                    decoding="async" data-nimg="1" class="font-thin mr-3" loading="lazy"
+                                    style="color:transparent">
+                                <p class="text-sm text-white">HOP</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex flex-col my-6 flex-grow">
+                            <p class="text-xs font-bold text-gray-400">Staked</p>
+                            <p class="text-2xl text-white font-bold">$0</p>
+                            <p class="text-xs font-bold text-gray-400">0 DAI</p>
+                        </div>
+                        <div class="flex flex-col my-6">
+                            <p class="text-xs font-bold text-gray-400">APY</p>
+                            <div class="min-w-[5rem] w-full">
+                                <p class="text-2xl text-white">7.40%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="w-full  bg-violet-700  p-3 rounded-lg uppercase font-bold text-white">Connect
+                            Wallet</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div
+                class="bg-gradient-to-b from-[#191F30] to-[#101625] border-[#181E2F] border-solid border-2 rounded-2xl p-2 ">
+                <div class="p-4">
+                    <div class="flex">
+                        <div class="flex flex-grow flex-row items-center">
+                            <img alt="Token Logo" src="./images/eth-token.svg" class="inline mr-3 h-12 w-12"
+                                loading="lazy" style="color:transparent">
+                            <p class="inline text-2xl font-bold text-white">ETH</p>
+                        </div>
+                        <div>
+                            <a class="inline-flex flex-row rounded-lg bg-gradient-to-r from-backgroundPrimary to-[#10141F] p-2 border-solid border-backgroundPrimary border-2 hover:border-accentSecondary items-center"
+                                href="https://app.hop.exchange/#/pools?token=ETH">
+                                <img alt="Protocol Logo" src="./images/hop-logo.svg" width="25" height="25"
+                                    decoding="async" data-nimg="1" class="font-thin mr-3" loading="lazy"
+                                    style="color:transparent">
+                                <p class="text-sm text-white">HOP</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex flex-col my-6 flex-grow">
+                            <p class="text-xs font-bold text-gray-400">Staked</p>
+                            <p class="text-2xl text-white font-bold">$0</p>
+                            <p class="text-xs font-bold text-gray-400">0 ETH</p>
+                        </div>
+                        <div class="flex flex-col my-6">
+                            <p class="text-xs font-bold text-gray-400">APY</p>
+                            <div class="min-w-[5rem] w-full">
+                                <p class="text-2xl text-white">6.80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="w-full  bg-violet-700  p-3 rounded-lg uppercase font-bold text-white">Connect
+                            Wallet</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class="bg-gradient-to-b from-[#191F30] to-[#101625] border-[#181E2F] border-solid border-2 rounded-2xl p-2 ">
+                <div class="p-4">
+                    <div class="flex">
+                        <div class="flex flex-grow flex-row items-center">
+                            <img  src="./images/usdt-logo.svg" class="inline mr-3 h-12 w-12"
+                                loading="lazy" style="color:transparent">
+                            <p class="inline text-2xl font-bold text-white">USDT</p>
+                        </div>
+                        <div>
+                            <a class="inline-flex flex-row rounded-lg bg-gradient-to-r from-backgroundPrimary to-[#10141F] p-2 border-solid border-backgroundPrimary border-2 hover:border-accentSecondary items-center"
+                                href="https://app.hop.exchange/#/pools?token=ETH">
+                                <img alt="Protocol Logo" src="./images/hop-logo.svg" width="25" height="25"
+                                    decoding="async" data-nimg="1" class="font-thin mr-3" loading="lazy"
+                                    style="color:transparent">
+                                <p class="text-sm text-white">HOP</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex flex-col my-6 flex-grow">
+                            <p class="text-xs font-bold text-gray-400">Staked</p>
+                            <p class="text-2xl text-white font-bold">$0</p>
+                            <p class="text-xs font-bold text-gray-400">0 USDT</p>
+                        </div>
+                        <div class="flex flex-col my-6">
+                            <p class="text-xs font-bold text-gray-400">APY</p>
+                            <div class="min-w-[5rem] w-full">
+                                <p class="text-2xl text-white">8.36%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="w-full  bg-violet-700  p-3 rounded-lg uppercase font-bold text-white">Connect
+                            Wallet</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card-4 -->
+            <div class="bg-gradient-to-b from-[#191F30] to-[#101625] border-[#181E2F] border-solid border-2 rounded-2xl p-2 ">
+                <div class="p-4">
+                    <div class="flex">
+                        <div class="flex flex-grow flex-row items-center">
+                            <img  src="./images/usdc-logo.svg" class="inline mr-3 h-12 w-12"
+                                loading="lazy" style="color:transparent">
+                            <p class="inline text-2xl font-bold text-white">USDC</p>
+                        </div>
+                        <div>
+                            <a class="inline-flex flex-row rounded-lg bg-gradient-to-r from-backgroundPrimary to-[#10141F] p-2 border-solid border-backgroundPrimary border-2 hover:border-accentSecondary items-center"
+                                href="https://app.hop.exchange/#/pools?token=ETH">
+                                <img alt="Protocol Logo" src="./images/hop-logo.svg" width="25" height="25"
+                                    decoding="async" data-nimg="1" class="font-thin mr-3" loading="lazy"
+                                    style="color:transparent">
+                                <p class="text-sm text-white">HOP</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex flex-col my-6 flex-grow">
+                            <p class="text-xs font-bold text-gray-400">Staked</p>
+                            <p class="text-2xl text-white font-bold">$0</p>
+                            <p class="text-xs font-bold text-gray-400">0 USDC</p>
+                        </div>
+                        <div class="flex flex-col my-6">
+                            <p class="text-xs font-bold text-gray-400">APY</p>
+                            <div class="min-w-[5rem] w-full">
+                                <p class="text-2xl text-white">6.82%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="w-full  bg-violet-700  p-3 rounded-lg uppercase font-bold text-white">Connect
+                            Wallet</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card-5 -->
+            <div class="bg-gradient-to-b from-[#191F30] to-[#101625] border-[#181E2F] border-solid border-2 rounded-2xl p-2 ">
+                <div class="p-4">
+                    <div class="flex">
+                        <div class="flex flex-grow flex-row items-center">
+                            <img  src="./images/bfr-logo.webp" class="inline mr-3 h-12 w-12"
+                                loading="lazy" style="color:transparent">
+                            <p class="inline text-2xl font-bold text-white">BFR</p>
+                        </div>
+                        <div>
+                            <a class="inline-flex flex-row rounded-lg bg-gradient-to-r from-backgroundPrimary to-[#10141F] p-2 border-solid border-backgroundPrimary border-2 hover:border-accentSecondary items-center"
+                                href="https://app.hop.exchange/#/pools?token=ETH">
+                                <img alt="Protocol Logo" src="./images/bfr-logo (1).webp" width="25" height="25"
+                                    decoding="async" data-nimg="1" class="font-thin mr-3" loading="lazy"
+                                    style="color:transparent">
+                                <p class="text-sm text-white">Buffer Finance</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex flex-col my-6 flex-grow">
+                            <p class="text-xs font-bold text-gray-400">Staked</p>
+                            <p class="text-2xl text-white font-bold">$0</p>
+                            <p class="text-xs font-bold text-gray-400">0 BFR</p>
+                        </div>
+                        <div class="flex flex-col my-6">
+                            <p class="text-xs font-bold text-gray-400">APY</p>
+                            <div class="min-w-[5rem] w-full">
+                                <p class="text-2xl text-white">13.14%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="w-full  bg-violet-700  p-3 rounded-lg uppercase font-bold text-white">Connect
+                            Wallet</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card-6 -->
+            <div class="bg-gradient-to-b from-[#191F30] to-[#101625] border-[#181E2F] border-solid border-2 rounded-2xl p-2 ">
+                <div class="p-4">
+                    <div class="flex">
+                        <div class="flex flex-grow flex-row items-center">
+                            <img  src="./images/gns-logo.webp" class="inline mr-3 h-12 w-12"
+                                loading="lazy" style="color:transparent">
+                            <p class="inline text-2xl font-bold text-white">GNS</p>
+                        </div>
+                        <div>
+                            <a class="inline-flex flex-row rounded-lg bg-gradient-to-r from-backgroundPrimary to-[#10141F] p-2 border-solid border-backgroundPrimary border-2 hover:border-accentSecondary items-center"
+                                href="https://app.hop.exchange/#/pools?token=ETH">
+                                <img alt="Protocol Logo" src="./images/gns-logo.webp" width="25" height="25"
+                                    decoding="async" data-nimg="1" class="font-thin mr-3" loading="lazy"
+                                    style="color:transparent">
+                                <p class="text-sm text-white">Gains Network</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex flex-col my-6 flex-grow">
+                            <p class="text-xs font-bold text-gray-400">Staked</p>
+                            <p class="text-2xl text-white font-bold">$0</p>
+                            <p class="text-xs font-bold text-gray-400">0 GNS</p>
+                        </div>
+                        <div class="flex flex-col my-6">
+                            <p class="text-xs font-bold text-gray-400">APY</p>
+                            <div class="min-w-[5rem] w-full">
+                                <p class="text-2xl text-white">2.96%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="w-full  bg-violet-700  p-3 rounded-lg uppercase font-bold text-white">Connect
+                            Wallet</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card-7 -->
+        </div>
+    </main>
+   
+</body>
+
+</html>

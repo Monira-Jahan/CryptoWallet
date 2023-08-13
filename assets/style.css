@@ -1,0 +1,22 @@
+.logos{
+    overflow:hidden;
+    padding: 60px 0;
+}
+@keyframes slide{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+.logos-slider {
+    display:inline-block;
+    animation:10s slide infinite linear;
+
+}
+.logos-slider img{
+  height:50px;
+  padding: 0 20px;
+  
+}
